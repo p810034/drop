@@ -52,7 +52,7 @@ function DragNDrop({data}){
 
     return (
         <div className="drag-n-drop">
-        {data.map((grp, grpI) => (
+        {list.map((grp, grpI) => (
           <div
           key={grp.title}
           className="dnd-group"
